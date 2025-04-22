@@ -22,7 +22,11 @@ export default function TourStructure({ tour, handleDelete }) {
         <p id="tour-item-para-rec6d6T3q5EBIdCfD">
           {expand ? info : shortInfo}
           {info.length > 200 && (
-            <button style={{ marginLeft: "10px" }} onClick={toggle}>
+            <button
+              style={{ marginLeft: "10px" }}
+              onClick={toggle}
+              id="see-more-rec6d6T3q5EBIdCfD"
+            >
               {expand ? "See less" : "See more"}
             </button>
           )}
