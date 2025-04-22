@@ -4,6 +4,7 @@ export default function TourStructure({ tour, handleDelete }) {
   // console.log(tour);
   const { id, name, image, price, info } = tour;
   const [expand, setExpand] = useState(false);
+
   let toggle = () => {
     setExpand(!expand);
   };
@@ -13,18 +14,24 @@ export default function TourStructure({ tour, handleDelete }) {
   let shortInfo = info.length > 200 ? `${info.substring(0, 200)}` : null;
   return (
     <>
-      <div className={style.items} key={id}>
+      <div className={style.items} id="main" key={id}>
         <span>{id}</span>
         <span>{name}</span>
         <img src={image} alt={name} width="200px" />
         <p>{price}</p>
-        <p>
+        <p id={`tour-item-para-${id}`}>
           {expand ? info : shortInfo}
           {info.length > 200 && (
-            <button style={{marginLeft:"10px"}} onClick={toggle}>{expand ? "See less" : "See more"}</button>
+            <button style={{ marginLeft: "10px" }} onClick={toggle}>
+              {expand ? "See less" : "See more"}
+            </button>
           )}
         </p>
-              <button className={style.deletebtn} onClick={() => handleDelete(id)}>
+        <button
+          className={style.deletebtn}
+          id={`delete-btn-${id}`}
+          onClick={() => handleDelete(id)}
+        >
           Delete
         </button>
       </div>

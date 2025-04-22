@@ -4,9 +4,8 @@ import Tour from "./Tour";
 // import { useState } from "react";
 
 const App = () => {
-  
   return (
-      <Tour data={data} />
+      <Tour id="main" data={data} />
     )
 }
 export default App;

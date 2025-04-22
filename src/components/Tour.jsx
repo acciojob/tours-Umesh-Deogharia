@@ -8,9 +8,10 @@ export default function Tour({ data }) {
 
   // console.log(deleteItem);
   function handleDelete(id) {
-    let updatedData = tours.filter((items) => items.id != id);
+    let updatedData = tours.filter((items) => items.id !== id);
     setTours(updatedData);
   }
+
 
   return (
     <div>
