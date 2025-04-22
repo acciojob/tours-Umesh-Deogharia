@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import style from "../styles/App.module.css";
 export default function TourStructure({ tour, handleDelete }) {
   // console.log(tour);
   const { id, name, image, price, info } = tour;
@@ -13,7 +13,7 @@ export default function TourStructure({ tour, handleDelete }) {
   let shortInfo = info.length > 200 ? `${info.substring(0, 200)}` : null;
   return (
     <>
-      <div className="items" key={id}>
+      <div className={style.items} key={id}>
         <span>{id}</span>
         <span>{name}</span>
         <img src={image} alt={name} width="200px" />
@@ -24,7 +24,7 @@ export default function TourStructure({ tour, handleDelete }) {
             <button style={{marginLeft:"10px"}} onClick={toggle}>{expand ? "See less" : "See more"}</button>
           )}
         </p>
-        <button className="delete-btn" onClick={() => handleDelete(id)}>
+              <button className={style.deletebtn} onClick={() => handleDelete(id)}>
           Delete
         </button>
       </div>

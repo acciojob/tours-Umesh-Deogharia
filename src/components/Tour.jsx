@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/App.css";
+import style from "../styles/App.module.css";
 import TourStructure from "./TourStructure";
 
 export default function Tour({ data }) {
@@ -26,7 +27,7 @@ export default function Tour({ data }) {
       {tours.length == 0 && (
         <div>
           <p>No tours left</p>
-          <button className="btn" onClick={() => setTours(data)}>
+          <button className={style.btn} onClick={() => setTours(data)}>
             Refresh
           </button>
         </div>
