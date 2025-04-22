@@ -27,7 +27,7 @@ export default function TourStructure({ tour, handleDelete }) {
               onClick={toggle}
               id="see-more-rec6d6T3q5EBIdCfD"
             >
-              {expand ? "Show less" : "Show More"}
+              {expand ? "Show less" : "See more"}
             </button>
           )}
         </p>
