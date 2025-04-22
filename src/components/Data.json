@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Explore the Mountains",
+    "info": "Join us for a breathtaking adventure through the Rocky Mountains, where you'll witness stunning peaks, vibrant forests, and cascading waterfalls. This unforgettable experience includes guided hikes, cozy campfires under the stars, thrilling wildlife encounters, and scenic drives along the most beautiful mountain passes. Perfect for nature lovers, this tour offers a mix of exploration, relaxation, and the chance to disconnect from the digital world and reconnect with the great outdoors.",
+    "image": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b",
+    "price": "199.99"
+  },
+  {
+    "id": "2",
+    "name": "Beachside Relaxation",
+    "info": "Soak up the sun on golden sandy beaches, swim in crystal-clear turquoise waters, and unwind with oceanfront dining and spa treatments. This tropical escape offers luxurious accommodations, daily yoga sessions, and cocktail evenings by the sea. Whether you're lounging with a book, exploring coral reefs, or enjoying beach volleyball with fellow travelers, this getaway promises to rejuvenate your body and mind. It’s the ultimate retreat for anyone needing a break from the hustle of daily life.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "price": "299.99"
+  },
+  {
+    "id": "3",
+    "name": "City Lights Experience",
+    "info": "Experience the energy of the world’s most vibrant cities. Enjoy skyline views from towering skyscrapers, cultural attractions like museums and galleries, gourmet dining at five-star restaurants, and unforgettable nightlife in the trendiest neighborhoods. From bustling markets to iconic landmarks, each day is packed with exciting urban adventures. This tour blends luxury, exploration, and spontaneity for those who love the buzz of city life and want to experience it all without missing a beat.",
+    "image": "https://images.unsplash.com/photo-1493612276216-ee3925520721",
+    "price": "349.99"
+  },
+  {
+    "id": "4",
+    "name": "Desert Safari Adventure",
+    "info": "Venture into the heart of the desert for dune bashing, camel rides, and star-lit camping. Our desert safari includes traditional meals, live cultural entertainment, and unforgettable views of endless golden dunes. As the sun sets, enjoy storytelling around the campfire and experience a night under the stars in Bedouin-style tents. This tour blends adrenaline-pumping excitement with peaceful moments of reflection in the vast silence of the desert, making it perfect for thrill-seekers and dreamers alike.",
+    "image": "https://images.unsplash.com/photo-1592194996308-7b43878e84a6",
+    "price": "179.99"
+  }
+]
