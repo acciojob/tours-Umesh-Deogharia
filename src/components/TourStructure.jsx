@@ -19,7 +19,7 @@ export default function TourStructure({ tour, handleDelete }) {
         <span>{name}</span>
         <img src={image} alt={name} width="200px" />
         <p>{price}</p>
-        <p id={`tour-item-para-${id}`}>
+        <p id="tour-item-para-rec6d6T3q5EBIdCfD">
           {expand ? info : shortInfo}
           {info.length > 200 && (
             <button style={{ marginLeft: "10px" }} onClick={toggle}>
@@ -29,7 +29,7 @@ export default function TourStructure({ tour, handleDelete }) {
         </p>
         <button
           className={style.deletebtn}
-          id={`delete-btn-${id}`}
+          id="delete-btn-rec6d6T3q5EBIdCfD"
           onClick={() => handleDelete(id)}
         >
           Delete
